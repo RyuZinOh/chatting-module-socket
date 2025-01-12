@@ -1,6 +1,6 @@
 # real time  Chat Module
 ## Overview
-a socket module  base  for user multiple chatting or real time conenction for using in my other porject
+a socket module  base  for user multiple chatting or real time connection for using in my other project
 
 ## Technology Usage
 - **Backend**: Flask
