@@ -1,0 +1,97 @@
+/* src/Chat.css */
+.discord-chat {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #2f3136;
+  color: white;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #3c4047;
+  padding: 10px;
+  background: linear-gradient(145deg, #2f3136, #1e1e1e);
+  color: white;
+}
+
+.chat-header h2 {
+  margin: 0;
+}
+
+.chat-messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #202225;
+  border-bottom: 1px solid #3c4047;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #36393f;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.user-icon {
+  margin-right: 10px;
+  color: #5865f2;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.timestamp {
+  font-size: 0.8rem;
+  color: #72767d;
+}
+
+.typing-indicator {
+  font-size: 0.9rem;
+  color: #949c9f;
+  padding: 5px 0;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #2f3136;
+  border-top: 1px solid #3c4047;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2f3136;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #5865f2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4c5dd0;
+}
